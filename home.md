@@ -8,7 +8,7 @@ background: /assets/images/fieldPlaceholder.png
 imageLicense: |
   *No description* and no rights, but normally you would add that here
 height: 80vh
-overlayColor: "#00000022"
+overlayColor: transparent #"#00000022"
 cta:
   - text: Observations
     href: /data
