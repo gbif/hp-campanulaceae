@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 klass: home
 title: Campanulaceae
-description: The myth and the phylogeny
+description: The floriography, the myth and the phylogeny
 background: /assets/images/fieldPlaceholder.png
 imageLicense: |
   *No description* and no rights, but normally you would add that here
