@@ -1,0 +1,47 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: About
+  href: /about
+- text: Data
+  href: /data
+- text: Taxonomy
+  href: /taxonomy
+  menu: #Dropdown menu
+  - text: Accepted Species List and Synonyms
+    href: /taxonomy/species-list 
+  - text: Browse
+    href: /taxonomy/browse
+  - text: Advanced search
+    href: /taxonomy/search
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: Campanuloideae
+    href: /taxonomy/campanuloideae
+  - text: Lobelioideae
+    href: /taxonomy/lobelioideae
+- text: Working Groups
+  href: /Working Groups
+  menu: #Dropdown menu
+  - text: Occurrences
+    href: /working-groups/occurrences
+  - text: Traits
+    href: /working-groups/traits
+  - text: Taxonomy
+    href: /working-groups/taxonomy
+  - text: Phylogenomics & phylogenetics
+    href: /working-groups/phylogenetics
+  - text: OToL phylogeny
+    href: /working-groups/OToL
+- text: Examples
+  menu: # Dropdown menu (one level deep only)
+  - text: Base theme demo
+    href: https://hp-base-theme.gbif-staging.org/
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: "Docs" # Title for block of menu items
+  - text: Jekyll documentation
+    href: https://jekyllrb.com/docs/pages/
+  - text: Markdown tutorial
+    href: https://guides.github.com/features/mastering-markdown/
+  - text: YAML tutorial
+    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+- text: News
+  href: /news/
