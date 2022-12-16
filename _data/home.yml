@@ -6,7 +6,7 @@ stats:
       background: /assets/images/placeholderObservations.png
       href: /occurrence/search
     - title: <span data-ajax-path="total" data-ajax-url="https://api.catalogueoflife.org/dataset/2232/nameusage/search?TAXON_ID=xG2&limit=0&offset=0&rank=species&status=accepted">772</span>
-      description: "Species (see issue #1)"
+      description: "Species (see [issue #1](https://github.com/gbif/hp-campanulaceae/issues/1))"
       background: /assets/images/placeholderTaxonomy.png
       href: /taxonomy/search?rank=species&status=accepted
     - title: 53
