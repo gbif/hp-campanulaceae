@@ -3,15 +3,15 @@ stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?taxonKey=8801&limit=0">20.000.000</span>
       description: Observations
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053289290274189392/Morten100_lose_up_photo_of_bellflower_flower_lying_on_map_42732dcf-c177-4458-8adf-428a37f66baf.png
+      background: /assets/images/placeholderObservations.png
       href: /occurrence/search
     - title: <span data-ajax-path="total" data-ajax-url="https://api.catalogueoflife.org/dataset/2232/nameusage/search?TAXON_ID=xG2&limit=0&offset=0&rank=species&status=accepted">772</span>
       description: "Species (see issue #1)"
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053295087179808798/Morten100_photo_of_pile_of_books_and_bellflowers_215da501-2e11-4a26-b398-f9b3b95aff0f.png
+      background: /assets/images/placeholderTaxonomy.png
       href: /taxonomy/search?rank=species&status=accepted
     - title: 53
       description: Phylogentic studies
-      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053295341472067634/Morten100_dna_helix_made_of_plant_stems_with_bellflowers_7ae8512f-1cb1-40c6-8d18-ad09e7fe1bd6.png
+      background: /assets/images/placeholderDna.png
       href: /about
 couldBeAnyName:
   title: Ongoing projects
