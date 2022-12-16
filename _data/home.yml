@@ -1,21 +1,18 @@
 stats:
+  klass: contentTypesStat
   features:
-      # we can also use the graphql API to allow richer queries
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?taxonKey=8801&limit=0">20.000.000</span>
-      description: Occurrences
-      #background: /assets/images/landing_page/iconos_cifras/registros_biologicos.png
-      href: /data?view=MAP
-      # using a dynamic value from some endpoint. You can configure what field to look for using the path attribute
-    - title: <span data-ajax-path="total" data-ajax-url="https://api.catalogueoflife.org/dataset/9845/nameusage/search?limit=0&offset=0&status=accepted&rank=species">22.360</span>
-      description: Species (should be corrected)
-      #background: /assets/images/landing_page/iconos_cifras/listas_de_especies.png
-      href: /taxonomy/browse
-      # using a dynamic value from some endpoint. It will default to look for a 'count' value in the response
-    - title: <span data-ajax-path="total" data-ajax-url="https://api.catalogueoflife.org/dataset/9845/nameusage/search?limit=0&offset=0&rank=genus&status=accepted">772</span>
-      #could also use "https://api.catalogueoflife.org/dataset/2304/tree/x4/children?extinct=true&type=SOURCE&limit=1000" or "https://api.catalogueoflife.org/dataset/2304/tree/x4?catalogueKey=3&extinct=true"
-      description: Genera (should be corrected)
-      #background: /assets/images/landing_page/iconos_cifras/fichas_de_especies.png
-      href: /taxonomy/browse
+      description: Observations
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053289290274189392/Morten100_lose_up_photo_of_bellflower_flower_lying_on_map_42732dcf-c177-4458-8adf-428a37f66baf.png
+      href: /occurrence/search
+    - title: <span data-ajax-path="total" data-ajax-url="https://api.catalogueoflife.org/dataset/2232/nameusage/search?TAXON_ID=xG2&limit=0&offset=0&rank=species&status=accepted">772</span>
+      description: "Species (see issue #1)"
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053295087179808798/Morten100_photo_of_pile_of_books_and_bellflowers_215da501-2e11-4a26-b398-f9b3b95aff0f.png
+      href: /taxonomy/search?rank=species&status=accepted
+    - title: 53
+      description: Phylogentic studies
+      background: https://cdn.discordapp.com/attachments/1017143593351258192/1053295341472067634/Morten100_dna_helix_made_of_plant_stems_with_bellflowers_7ae8512f-1cb1-40c6-8d18-ad09e7fe1bd6.png
+      href: /about
 couldBeAnyName:
   title: Ongoing projects
   #description: Uncomment this to add text below title    
