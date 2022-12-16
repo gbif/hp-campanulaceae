@@ -1,6 +1,5 @@
 ---
-lang-ref: data
-title: Data
+title: Occurrences
 description: We publish open data
 layout: occurrence
 ---
